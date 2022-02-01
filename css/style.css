@@ -1,4 +1,5 @@
 body {
+  color: #666;
 }
 
 /* #color primario */
@@ -63,4 +64,44 @@ nav ul li a {
 .espacios {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.content {
+  padding: 10px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.card .btn {
+  float: right;
+  background: #9147ff;
+  color: white;
+}
+
+.letritas {
+  background: #f2f2f2;
+}
+
+i {
+  color: #9147ff;
+}
+
+.pintadito {
+  background: #999;
+  padding: 2px;
+  font-size: 30px;
+  color: white;
+}
+
+.frases i {
+  font-size: 100px;
+}
+
+.frases h2 {
+  padding: 30px;
 }
