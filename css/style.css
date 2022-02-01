@@ -55,3 +55,12 @@ nav ul li a {
 .splash .btn {
   background: #ffeb3b;
 }
+
+.centrado {
+  text-align: center;
+}
+
+.espacios {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
