@@ -1,12 +1,10 @@
 body {
-  color: #666;
+  color: #08222a;
 }
-
-/* #color primario */
 
 header {
   height: 64px;
-  background: #ffeb3b;
+  background: #092028;
 }
 
 .logo {
@@ -23,17 +21,17 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
   text-transform: uppercase;
+  color: #cdd6cb;
 }
 
 nav ul li a {
   padding: 10px;
-  color: #000;
 }
 
 .splash {
   width: 100%;
-  height: 100vh;
-  background: url(../images/fondo.jpg) center center fixed;
+  height: 90vh;
+  background: url(../images/fondo.jpg) top center fixed;
   background-size: cover;
 }
 
@@ -42,8 +40,8 @@ nav ul li a {
 }
 
 .splash h1 {
-  background: black;
-  color: white;
+  background: #092028;
+  color: #cdd6cb;
   display: inline-block;
   padding: 10px;
   font-size: 30px;
@@ -54,7 +52,8 @@ nav ul li a {
 }
 
 .splash .btn {
-  background: #ffeb3b;
+  background: #a6524d;
+  color: #cdd6cb;
 }
 
 .centrado {
@@ -62,8 +61,8 @@ nav ul li a {
 }
 
 .espacios {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .content {
@@ -79,8 +78,8 @@ nav ul li a {
 
 .card .btn {
   float: right;
-  background: #9147ff;
-  color: white;
+  background: #497d93;
+  color: #08222a;
 }
 
 .letritas {
@@ -88,14 +87,14 @@ nav ul li a {
 }
 
 i {
-  color: #9147ff;
+  color: #497d93;
 }
 
 .pintadito {
-  background: #999;
+  background: #a6524d;
   padding: 2px;
   font-size: 30px;
-  color: white;
+  color: #08222a;
 }
 
 .frases i {
@@ -104,4 +103,9 @@ i {
 
 .frases h2 {
   padding: 30px;
+}
+
+.formulario .btn {
+  background: #497d93;
+  color: #08222a;
 }
